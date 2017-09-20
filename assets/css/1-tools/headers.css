@@ -1,0 +1,449 @@
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footerz {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz {
+    z-index: -1;
+    width: 100%;
+    height: 25em;
+    background-size: cover;
+    background-position: center center;
+}}
+
+
+.footerz, .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    text-align: center;
+}
+
+@media (min-width: 550px) {  
+.footerz:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+    }}
+
+
+/*
+.footerz_title{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 30%;
+    margin: auto;
+}
+*/
+
+
+
+.footerz_title{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 35%;
+    margin: auto;    
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: .5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Proxima Nova";
+}
+
+.footerz_project{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 2.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 40%;
+    margin: auto;
+    margin-top: .25em;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+@media (min-width: 550px) {  
+.footerz_project{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 2.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 45%;
+    margin: auto;
+    font-size: 2.4em;
+    font-weight: 300;
+	text-align: center
+    }}
+
+
+
+
+
+
+/* Sappho sappho
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_sappho{
+    background: url('../../img/work/ArchitectonicsofmusicSappho/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_sappho{
+    background: url('../../img/work/ArchitectonicsofmusicSappho/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_sappho {
+    background: url('../../img/work/ArchitectonicsofmusicSappho/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_sappho {
+    background: url('../../img/work/ArchitectonicsofmusicSappho/header.jpg') ;
+	}}
+
+/* Ptras
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_patras{
+    background: url('../../img/work/PatrasPierMusicEducationFacility/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_patras{
+    background: url('../../img/work/PatrasPierMusicEducationFacility/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_patras {
+    background: url('../../img/work/PatrasPierMusicEducationFacility/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_patras {
+    background: url('../../img/work/PatrasPierMusicEducationFacility/header.jpg') ;
+	}}
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Stadium
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_stadium{
+    background: url('../../img/work/UndergroundStadium/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_stadium{
+    background: url('../../img/work/UndergroundStadium/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_stadium {
+    background: url('../../img/work/UndergroundStadium/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_stadium {
+    background: url('../../img/work/UndergroundStadium/header.jpg') ;
+	}}
+
+/* Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_section {
+    background: url('../../img/work/Fromsectiontoform/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_section {
+    background: url('../../img/work/Fromsectiontoform/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_section {
+    background: url('../../img/work/Fromsectiontoform/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_section {
+    background: url('../../img/work/Fromsectiontoform/header.jpg') ;
+	}}
+
+/* Notation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_notation {
+    background: url('../../img/work/AugmentationinNotation/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_notation{
+    background: url('../../img/work/AugmentationinNotation/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_notation {
+    background: url('../../img/work/AugmentationinNotation/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_notation {
+    background: url('../../img/work/AugmentationinNotation/header.jpg') ;
+	}}
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* pieri
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_pieri{
+    background: url('../../img/work/PierIPerformanceCenter/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_pieri{
+    background: url('../../img/work/PierIPerformanceCenter/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_pieri {
+    background: url('../../img/work/PierIPerformanceCenter/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_pieri {
+    background: url('../../img/work/PierIPerformanceCenter/header.jpg') ;
+	}}
+/* parasite
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_parasite{
+    background: url('../../img/work/Re-parasitethecity/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_parasite{
+    background: url('../../img/work/Re-parasitethecity/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_parasite {
+    background: url('../../img/work/Re-parasitethecity/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_parasite {
+    background: url('../../img/work/Re-parasitethecity/header.jpg') ;
+	}}
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* rolling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_rolling{
+    background: url('../../img/work/Rollingcity/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_rolling{
+    background: url('../../img/work/Rollingcity/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_rolling {
+    background: url('../../img/work/Rollingcity/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_rolling {
+    background: url('../../img/work/Rollingcity/header.jpg') ;
+	}}
+/* neighborhood
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_neighborhood{
+    background: url('../../img/work/NeighborhoodArtcenter/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_neighborhood{
+    background: url('../../img/work/NeighborhoodArtcenter/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_neighborhood {
+    background: url('../../img/work/NeighborhoodArtcenter/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_neighborhood {
+    background: url('../../img/work/NeighborhoodArtcenter/header.jpg') ;
+	}}
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* yangzhou
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_yangzhou{
+    background: url('../../img/work/Yangzhouteahouse/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_yangzhou{
+    background: url('../../img/work/Yangzhouteahouse/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_yangzhou {
+    background: url('../../img/work/Yangzhouteahouse/thumb.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_yangzhou {
+    background: url('../../img/work/Yangzhouteahouse/header.jpg') ;
+	}}
+/* ani
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_ani{
+    background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.header_ani{
+    background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
+}}
+
+.footerz_ani {
+    background: url(../images/fortune/header.jpg) rgb(222, 222, 222);
+}
+@media (min-width: 550px) {  
+.footerz_ani {
+    background: url(../images/fortune/header.jpg) ;
+	}}
+
+/* Headerz + Footerz  (only add the project here
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header_sappho,.header_patras,.header_stadium,.header_notation,.header_pieri,.header_parasite,.header_rolling,.header_neighborhood,.header_yangzhou, .header_section {
+    width: 100%;
+    height: 25em;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_sappho,.header_patras,.header_stadium,.header_notation,.header_pieri,.header_parasite,.header_rolling,.header_neighborhood,.header_yangzhou,  .header_section {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_sappho,.footerz_patras,.footerz_stadium,.footerz_notation,.footerz_pieri,.footerz_parasite,.footerz_rolling,.footerz_neighborhood,.footerz_yangzhou, .footerz_section{
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) { 
+ .footerz_notation,.footerz_pieri,.footerz_parasite,.footerz_rolling,.footerz_neighborhood,.footerz_yangzhou,.footerz_anicajonpaul,.footerz_patras,.footerz_sappho,.footerz_stadium, .footerz_section{
+    z-index: -1 !important;
+    width: 100% !important;
+    height: 15em !important;
+    background-size: cover;
+    background-position: center center;
+}}
+
+
+
+
+/* Hover
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (min-width: 550px) {  
+.footerz_sappho:hover .fade, .footerz_patras:hover .fade, .footerz_notation:hover .fade, .footerz_pieri:hover  .fade, .footerz_parasite:hover .fade, .footerz_rolling:hover .fade,.footerz_neighborhood:hover .fade, .footerz_yangzhou:hover .fade, .footerz_anicajonpaul:hover .fade,.footerz_stadium:hover .fade,  .footerz_section:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+/* About 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_about{
+    width: 100%;
+    height: 5vh;
+    background: url('../img/work/ArchitectonicsofmusicSappho/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+@media (min-width: 550px) {  
+.header_about{
+    height: 0em;
+    width: 100%;
+    background: url('../../img/work/ArchitectonicsofmusicSappho/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+	padding-top: 2em;
+	margin-top: 1em;
+	margin-bottom: 3em;
+}}
+
+/* more 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_more{
+    width: 100%;
+    height: 5vh;
+    background: url('../img/work/ArchitectonicsofmusicSappho/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+@media (min-width: 550px) {  
+.header_more{
+    height: 0em;
+    width: 100%;
+    background: url('../../img/work/ArchitectonicsofmusicSappho/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+	padding-top: 2em;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}}
+
+
+/* Splashy 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#splashy{
+    height: 100vh;
+    background: url('../../img/splash_mobile.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+#splashy{
+    background: url('../../img/splash.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+    }}
+
+
+
+
+

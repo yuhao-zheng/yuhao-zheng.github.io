@@ -1,0 +1,194 @@
+---
+---
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>HAo / Works of Yuhao Zheng</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico" media="screen" />
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Typekit Proxima
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://use.typekit.net/efx3njx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../../assets/css/1-tools/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/skeleton.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/custom.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/headers.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/fontz/argent-cf-thin.css" type="text/css" charset="utf-8" /> 
+   
+    <!-- Social
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta property="og:site_name" content="HAo" />
+    <meta property="og:description" content="Works of Yuhao Zheng" />
+
+    <meta property="og:url" content="http://www.yuhaozheng.com/" />
+    <meta property="og:title" content="HAo / Works of Yuhao Zheng" />
+</head>
+<body>
+
+  <!-- Header + Nav
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- mobile nav bruh -->
+	{% include mobile-nav-work.html %}
+  <!-- end of the nav -->
+	{% include nav-work.html %}
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+ <div class="header_parasite container_header workz"></div>
+ 
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container workz">
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+             <!--  intro  -->
+     {% for project in site.data.settings.parasite %}    
+     	{% include work-title.html %}
+     {% endfor %}
+           <!-- end of intro  -->
+           
+  <!-- Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   
+   
+      <div class="row">
+      	<div class="eight offset-by-two columns">
+       		<div class="slideshow-container">
+						<div class="mySlides fade-slider">
+							<div class="numbertext">1 / 4</div>
+							<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider/01.jpg" >
+						</div>
+
+						<div class="mySlides fade-slider">
+							<div class="numbertext">2 / 4</div>
+							<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider/02.jpg" >
+						</div>
+
+						<div class="mySlides fade-slider">
+							<div class="numbertext">3 / 4</div>
+							<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider/03.jpg" >
+						</div>
+						
+						<div class="mySlides fade-slider">
+							<div class="numbertext">4 / 4</div>
+							<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider/04.jpg" >
+						</div>
+						<a class="prev" onclick="plusSlides(-1)" style="color: firebrick">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)" style="color: firebrick">&#10095;</a>	
+					</div>
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span>   
+						<span class="dot" onclick="currentSlide(4)"></span>           
+					</div>
+			</div>
+     	</div>
+     	
+     	<div class="row">
+      	<div class="full columns">
+      	<p class="text_work_content2">We chose the famous tall buildings - Excellence Huang-gang Century Center as our object of design. Located near the Futian CBD, Excellence Huang-gang Century Center consists of 4 buildings, the highest one is as high as 208m, and the lowest one is as high as 180m. It is one of the typical Office buildings in Shenzhen. After the investigate and survey of the people who work in the building, we came up with 14 functions which are needed, and we tried to find out the characteristic of these functions.</p> 
+     	</div>
+     	</div>
+      <div class="row">
+        <div class="one-half column">  
+            <img src="../../assets/img/work/Re-parasitethecity/long render.jpg" /> 
+            <p class="text_work_content1">Rendering</p>         
+         </div>  
+         <div class="one-half column">  
+            <img src="../../assets/img/work/Re-parasitethecity/section.jpg" />      
+            <p class="text_work_content1">Plan and Circulation analysis</p>    
+         </div>         
+      </div>
+		
+      <div class="row">
+       <p class="text_work_title">Form Elaborating</p> 
+        <div class="eight offset-by-two columns">  
+            <img src="../../assets/img/work/Re-parasitethecity/diagram.jpg" />          
+        </div>
+      </div>
+      <div class="row">
+      	<div class="full columns">
+      	<p class="text_work_content2">The project was inspired by the drum solo Psappha by the Greek composer Xenakis, which was honoring the ancient poetess Sappho, of whom Xenakis credited for introducing shifts into the rhythmic patterns of her poems. He borrowed this metabolic structure for the music which becomes the feature of it. The piece can be divided into 8 sections by their obvious shift in temple and rhythm. This architecture project is based on section 6, which is unique in its division of silence and beats</p> 
+     	</div>
+     	</div>
+      <div class="row">
+        <div class="one-third column">  
+            <img src="../../assets/img/work/Re-parasitethecity/01.jpg" />          
+        </div>   
+          <div class="one-third column">  
+            <img src="../../assets/img/work/Re-parasitethecity/02.jpg" />          
+        </div>
+          <div class="one-third column">  
+            <img src="../../assets/img/work/Re-parasitethecity/03.jpg" />          
+        </div>        
+      </div>      
+         <div class="row">
+			  <p class="text_work_title">Renderings</p>
+			  <div class="slideshow-container">
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext">1 / 4</div>
+						<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider2/rendering-1.jpg" >
+					</div>
+
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext">2 / 4</div>
+						<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider2/rendering-2.jpg" >
+
+					</div>
+
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext" style="color: black">3 / 4</div>
+						<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider2/rendering-3.jpg" >
+					</div>
+					
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext" style="color: black">3 / 4</div>
+						<img class="work_img" src="../../assets/img/work/Re-parasitethecity/slider2/rendering-4.jpg" >
+					</div>
+					
+					<a class="prev" onclick="plusSlides2(-1)" style="color: black">&#10094;</a>
+					<a class="next" onclick="plusSlides2(1)" style="color: black">&#10095;</a>
+				</div>
+
+
+				<div style="text-align:center">
+					<span class="dot2" onclick="currentSlide2(1)"></span> 
+					<span class="dot2" onclick="currentSlide2(2)"></span> 
+					<span class="dot2" onclick="currentSlide2(3)"></span> 
+					<span class="dot2" onclick="currentSlide2(4)"></span> 
+				</div>  
+     			</div> 
+</div>
+ <!-- end of Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+ <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+         <!--  footer  -->
+ {% for project in site.data.settings.yangzhou %}    
+     	{% include work-footer.html %}
+     {% endfor %}
+      
+       <!-- end of footer  -->
+<script src="../../assets/js/main.js"></script>    
+</body>
+</html>
+

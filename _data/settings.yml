@@ -1,0 +1,86 @@
+#-------------------------------
+# General Site Settings
+
+title: HAo
+description: Work of Yuhao Zheng
+email: zhengyuhao0531@hotmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Mood, url: '#clients'}
+
+#-------------------------------
+# Work-thumb Section
+
+
+
+projects-1:
+- {name: Psappha, description: "Research of Steven Holl's Studio - Architectonics of Music", data: research, category: Research, folder: 'ArchitectonicsofmusicSappho'}
+- {name: Patras Pier Music Education Facility, description: "Project of Steven Holl's Studio - Architectonics of Music", data: archi film,  category: architecture, folder: 'PatrasPierMusicEducationFacility'}
+- {name: Augmentation in Notation, description: "Powers of N, Architecture of Immersion and Bewilderment", data: research, category: research, folder: 'AugmentationinNotation'}
+
+projects-2:
+- {name: Pier I Performance Center, description: "Powers of N, Architecture of Immersion and Bewilderment", data: archi, category: architecture, folder: 'PierIPerformanceCenter'}
+- {name: From Section to Form, description: "Research of Gregg Pasquarelli's (SHoP) Studio - The Space of Wall, Reconceiving the Urban Stadium", data: research, category: research, folder: 'Fromsectiontoform'}
+- {name: Underground Stadium, description: "Project of Gregg Pasquarelli's (SHoP) Studio - The Space of Wall, Reconceiving the Urban Stadium", data: archi, category: architecture/urbanism, folder: 'UndergroundStadium'}
+
+
+projects-3:
+- {name: Yangzhou Tea House, description: "Tea House Design in Ancient City of China - Yang Zhou", data: archi, category: architecture/urbanism, folder: 'Yangzhouteahouse'}
+- {name: Rolling City, description: Work Selected for the 2015 graduate design exhibitition of Shenzhen University, data: archi, category: Architecture, folder: 'Rollingcity'}
+- {name: Re-parasite the city, description: Theme Studio - The Possibility To Re-parasite, data: archi, category: architecture/urbanism, folder: 'Re-parasitethecity'}
+
+projects-4:
+- {name: Neighborhood Art center, description: Work Selected for the 2015 graduate design exhibitition of Shenzhen University, data: archi, category: architecture, folder: 'NeighborhoodArtcenter'}
+
+
+#-------------------------------
+# Work-thumb Section
+
+sappho:
+- {name: Psappha, sub: Architectonics of Music, description: Research of Studio "Architectonics of Music", data: research, category: Research, folder: 'ArchitectonicsofmusicSappho', summary: "This is the reasearch of Architecture Studio Architectonics of Music. The project was inspired by the drum solo Psappha by the Greek composer Xenakis, which was honoring the ancient poetess Sappho, of whom Xenakis credited for introducing shifts into the rhythmic patterns of her poems. He borrowed this metabolic structure for the music which becomes the feature of it. The piece can be divided into 8 sections by their obvious shift in temple and rhythm. This architecture project is based on section 6, which is unique in its division of silence and beats.", partner: Keren Bao, critic: "Steven Holl & Dimitra Tsachrelia", time: Spring 2017, short: sappho }
+
+patras:
+- {name: Patras Pier Music Education Facility, description: Project of Studio "Architectonics of Music", data: archi,  category: architecture, folder: 'PatrasPierMusicEducationFacility', summary: "This is the project of Architecture Studio Architectonics of Music. The art educational institute accommodates 4 rehearsal rooms, 3 individual practice rooms, 1 outdoor classroom, 1 dancing studio, 1 painting studio for 30 students, 1 sculpture studio for 20 students, both with a gallery for studio works, 2 seminar rooms for 120 people, 2 cafes and offices for 10 administrators. The building sits half on the ground and the other on the water. The heavy concrete which was altering the light effects for the space is suddenly floating on the water, as a reinterpretation of the beats and silence in the music piece. By bridging over the water from the old industrial pier and providing the open access on the ground floor brings people in the city to the Mediterranean Sea and creates a poetic moment for the followers of art on this particular site.", partner: Keren Bao, critic: "Steven Holl & Dimitra Tsachrelia", time: Spring 2017, short: patras}
+
+stadium:
+- {name: Underground Stadium, description: "Project of Gregg Pasquarelli's (SHoP) Studio - The Space of Wall, Reconceiving the Urban Stadium", data: archi, category: architecture/urbanism, folder: 'UndergroundStadium', summary: "Most of the modern stadium is like an ancient fortress or an armory with a thick giant wall separate the building with the public. It is true that the fortress-like stadium can satisfy all the requirements to hold a successful basketball game or concert. But is it the best way to design the stadium? Can we provide a better Stadium which not only satisfied all the requirements from the game hoster but also provide the public a new place to spent their time? With this question, we start to reconsider the relationship of the stadium's space and wall..", partner: Yihan Xu, critic: "Gregg Pasquarelli & Angelica T. Baccon", time: Fall 2016, short: stadium}
+
+section:
+- {name: From section to form, description: "Research of Gregg Pasquarelli's (SHoP) Studio - The Space of Wall, Reconceiving the Urban Stadium", data: research, category: research, folder: 'Fromsectiontoform', summary: "Most of the modern stadium is like an ancient fortress or an armory with a thick giant wall separate the building with the public. It is true that the fortress-like stadium can satisfy all the requirements to hold a successful basketball game or concert. But is it the best way to design the stadium? Can we provide a better Stadium which not only satisfied all the requirements from the game hoster but also provide the public a new place to spent their time? With this question, we start to reconsider the relationship of the stadium's space and wall..", partner: Yihan Xu, critic: "Gregg Pasquarelli & Angelica T. Baccon", time: Fall 2016, short: section}
+
+
+
+notation:
+- {name: Augmentation in Notation, description: "Powers of N, Architecture of Immersion and Bewilderment", data: research, category: research, folder: 'AugmentationinNotation', summary: "The interest of this proposal begins with research of how the body has been notated within architecture over time and how that has remained within the scale of the body. We then look to dance notation as an artifact to similarly research the relationship of that body in space and in motion. While some notations record proportions, sequence of movement, or formal calculations, they are all centered on the language of the body. However, we chose to look at four elements of dance-	space, body, energy and time, to create a notation system that augments beyond the scale of the body. We developed a catalog of dance positions based on three specific
+dance styles: capoeira, salsa, and ballet. The notations of the varying dance styles begin to reveal the distinctions between the different behaviors of the body.", partner: "Stephanie Alexis Tager & Vanessa Marie Arriagada", critic: Mariana Ibanez, time: Summer 2016, short: notation}
+
+pieri:
+- {name: Pier I Performance Center, description: this is the work from columbia university, data: archi, category: architecture, folder: 'PierIPerformanceCenter', summary: "In developing our architectural strategy, we referred back to our initial dance notations and the relationships those had within space to determine an architecture that can be over, under or set within the occupiable space of a performance. In order to implement this, we looked at both the plan and elevation of the architecture and how it related to the actual occupied space. We then took the vertices of this surface area to generate a hypberbolic form. We wanted to explore the way in which the ground plane interacted with the paraboloid through a field of infinite points that the parabolas create in order to distinguish between spaces that can be inverted and submerged, or located above, or integrating both. The organization of these programs and stages are located at different moments within the site to continue the striations throughout and encourage movement that connects these distributed spaces.", partner: "Stephanie Alexis Tager & Vanessa Marie Arriagada", critic: Mariana Ibanez, time: Summer 2016, short: pieri}
+
+parasite:
+- {name: Re-parasite the city, description: The Possibility To Re-parasite, data: archi, category: architecture/urbanism, folder: 'Re-parasitethecity', summary: "In nature, animals and plants form a mutually beneficial relationship by parasitism. In this project, we implanted this kind of relation into city development, based on what we learned from nature. Using the concept of Re-parasite, we are able to activate the remaining space in the city, and to ease Shenzhen’s problem of lacking available land resources. This project also provide the citizens an interesting vertical community.", partner: "Shiyu Wu & Junzhang Zhu & Qiyang Lin", critic: "  Jia Yu", time: Setp-Nov 2013, short: parasite}
+
+
+yangzhou:
+- {name: Yangzhou Tea House, description: Tea House Design in Ancient City of China - Yang Zhou, data: archi, category: architecture/urbanism, folder: 'Yangzhouteahouse', summary: "Siheyuan has become the representative typology in a great deal of historical Chinese cities for hundreds of years. Based on the consideration of local solar exposure, wind direction, spaces are distributed by different scales of courtyards, making people feel warm in the Winter and cool in the Summer, which is the main characteristic of Siheyuan in Yangzhou. Eight Diagrams is a Chinese traditional discipline which studies the way in which human beings co-exist in harmony with nature. Great phenomenon will be shown via the combination of these two factors.", partner: "Shiyu Wu, Xiaojing Liu", critic: "None", time: Aug-Setp 2015 , short: yangzhou}
+
+rolling:
+- {name: Rolling City, description: Best Student Work of China  2013 , data: archi, category: Architecture, folder: 'Rollingcity', summary: "Urban villages have been constantly supporting city's rapid and unhealthy development. It not only provided the city cheap labor force but also Low-rent Houses for graduates and low-income families. However, in the process of urban renewal, developers denied the value of the urban villages and ignore the interest of the people from the villages. By analyzing the composition and demands of the people who live in the urban villages, I tried to provide a possible developed pattern for the urban villages’ renewal.", partner: none, critic: Jingzhong Ma, time: Setp-Nov 2013, short: rolling}
+
+neighborhood:
+- {name: Neighborhood Art center, description: Work Selected for the 2015 graduate design exhibitition of Shenzhen University, data: archi, category: architecture, folder: 'NeighborhoodArtcenter', summary: "Located in Shenzhen Futian- the low-tax zone, there is no existing context around the site. This design used the concept “Extend” to extend the liner park on the south of the site, also to extend the park into the building’s roof to hide the building.", partner: None, critic: "Erming Liu", time: Mar-June 2015, short: neighborhood}
+
+
+
+
+
+
+
+
+
+
+

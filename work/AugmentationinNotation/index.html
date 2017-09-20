@@ -1,0 +1,195 @@
+---
+---
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>HAo / Works of Yuhao Zheng</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico" media="screen" />
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Typekit Proxima
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://use.typekit.net/efx3njx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../../assets/css/1-tools/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/skeleton.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/custom.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/headers.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/fontz/argent-cf-thin.css" type="text/css" charset="utf-8" /> 
+   
+    <!-- Social
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta property="og:site_name" content="HAo" />
+    <meta property="og:description" content="Works of Yuhao Zheng" />
+
+    <meta property="og:url" content="http://www.yuhaozheng.com/" />
+    <meta property="og:title" content="HAo / Works of Yuhao Zheng" />
+</head>
+<body>
+
+  <!-- Header + Nav
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- mobile nav bruh -->
+	{% include mobile-nav-work.html %}
+  <!-- end of the nav -->
+	{% include nav-work.html %}
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+ <div class="header_notation container_header workz"></div>
+ 
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container workz">
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+             <!--  intro  -->
+     {% for project in site.data.settings.notation %}    
+     	{% include work-title.html %}
+     {% endfor %}
+           <!-- end of intro  -->
+           
+  <!-- Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="row">
+			<div class="four offset-by-four columns">
+			<img src="../../assets/img/work/AugmentationinNotation/NEW Body_Place_Energy_Time_Diagram.jpg" />	
+			</div>
+			
+			<div class="ten offset-by-one columns">
+				<p class="text_work_content2">We look into the dancer’s movement linearly and began looking at the four elements that dance is comprised of: Body, Space, Energy, and Time. We developed our own manual of dance moves and positions that we noted and documented when looking at Ballet, Capoeira, and Salsa.</p> 
+			</div> 
+		</div>
+		<div class="row">
+			<div class="full column">
+				<p class="text_work_title">Notation System</p></br>
+				<video width="100%" controls>
+					<source src="../../assets/img/work/AugmentationinNotation/mov/Ballet.MP4" type="video/mp4">
+				</video>
+				<p class="text_work_content1">Nutcracker Щелкунчик-Dance Of The Sugar Plum Fairy - Hee Seo (american Ballet Theatre)</p>
+				<img src="../../assets/img/work/AugmentationinNotation/analysis.jpg" />
+				<p class="text_work_content1">Sappha Section 6   (performed by Ying-Hsueh Chen)</p> 
+				<p class="text_work_content2">Our research began with Ballet and Capoeira in order to observe the body’s movement throughout time. We photoshopped the dancer’s movement linearly and began looking at the four elements that dance is comprised of: Body, Space, Energy, and Time. We developed our own manual of dance moves and positions that we noted and documented when looking at Ballet, Capoeira, and Salsa.</p>
+			</div>
+		</div>
+		<div class="row">
+			<p class="text_work_title">Dance Taxonomies</p>	
+			<div class="six offset-by-three columns">	
+				<img src="../../assets/img/work/AugmentationinNotation/Dance Taxonomies.jpg" /> 
+			</div>		
+		</div>					
+				          
+			 
+     	
+
+		<div class="row">
+				<p class="text_work_title">Ballet/ Capoeira/ Salsa Notations</p>
+				<p class="text_work_content2">Certain notation drawings focus more on gestures and movements of bodies, some are abstracted representations of the human figure, and others are more technically and mathematically calculated.</p>
+				<div class="slideshow-container">
+					<div class="mySlides fade-slider">
+						<div class="numbertext">1 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/slider/Ballet Notation.jpg" >
+					</div>
+
+					<div class="mySlides fade-slider">
+						<div class="numbertext">2 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/slider/Capoeira Notation.jpg" >
+					</div>
+
+					<div class="mySlides fade-slider">
+						<div class="numbertext">3 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/slider/Salsa Notation.jpg" >
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)" style="color:firebrick">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)" style="color:firebrick">&#10095;</a>	
+				</div>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div> 
+			</br>
+			<div class="row">
+				<div class="full column">
+					<div class="one-half column">  
+						<video width="100%" controls>
+						<source src="../../assets/img/work/AugmentationinNotation/mov/Capoeira.mp4" type="video/mp4"></video>
+						<p class="text_work_content1">Capoeira</p> 
+					</div>
+					<div class="one-half column">  
+						<video width="100%" controls>
+						<source src="../../assets/img/work/AugmentationinNotation/mov/Salsa.mp4" type="video/mp4"></video>
+						<p class="text_work_content1">Salsa</p> 
+					</div> 
+					</div>
+			</div>
+		</div>
+     		<div class="row">
+			  <p class="text_work_title">Space and Notation</p>
+			  <p class="text_work_content1">Ballet/ Capoeira/ Salsa Notations</p>
+			  <p class="text_work_content2">We referred back to the four elements of dance: Body, Space, Energy, and Time. So, we looked at the dances within their respective locations that they were performed in and the different sorts of spaces that they inhabit. In elevation, you see the body within the space (for 30 seconds), performed linearly. Projected in plan is the distance that the body has traveled, and in short section is the calculated kinetic energy of that body. Unlike Vitruvius and Pacioli, who focused solely on the body, we are actually focusing on the space that the body occupies, the audience space, and the stage space. This became our version of the Laban Cube, in which we tried to focus on systems, envelopes, and spaces.</p></br>
+			  <div class="slideshow-container">
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext">1 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/Space_Page_1.jpg">
+						<div class="text-slider">ss</div>
+					</div>
+
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext">2 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/Space_Page_2.jpg">
+						<div class="text-slider">sasdasd</div>
+					</div>
+
+					<div class="mySlides2 fade-slider">
+						<div class="numbertext">3 / 3</div>
+						<img class="work_img" src="../../assets/img/work/AugmentationinNotation/Space_Page_3.jpg">
+						<div class="text-slider">asdasdasdasd</div>
+					</div>
+
+					<a class="prev" onclick="plusSlides2(-1) " style="color:firebrick">&#10094;</a>
+					<a class="next" onclick="plusSlides2(1)" style="color:firebrick">&#10095;</a>
+				</div>
+
+
+				<div style="text-align:center">
+					<span class="dot2" onclick="currentSlide2(1)"></span> 
+					<span class="dot2" onclick="currentSlide2(2)"></span> 
+					<span class="dot2" onclick="currentSlide2(3)"></span> 
+				</div>
+    			<br> 
+     			</div>  
+              
+      
+</div>
+ <!-- end of Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+ <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+         <!--  footer  -->
+ {% for project in site.data.settings.pieri %}    
+     	{% include work-footer.html %}
+     {% endfor %}
+      
+       <!-- end of footer  -->
+<script src="../../assets/js/main.js"></script>    
+</body>
+</html>
+

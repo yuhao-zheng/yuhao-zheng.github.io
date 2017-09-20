@@ -1,0 +1,36 @@
+section-other-header
+	height: 70px
+	
+	.other-header-container
+		max-width: 960px
+		margin: auto
+		+clearfix
+	
+		.logo
+			display: block
+			width: 50px
+			height: 50px
+			background: url(/assets/img/logo.png) center center
+			background-size: cover
+			backrgound-attachment: fixed
+			float: left
+			
+
+		nav
+			float: right
+						
+			a
+				display: inline-block
+				margin: (10px 5px 0px 30px)
+				
+				color: rgba(0,0,0,1)
+				text-transform: uppercase
+				@extend %small-bold
+
+
+				&:hover
+					color: rgba(0,0,0,0.1)
+
+
+	
+	

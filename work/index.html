@@ -1,0 +1,107 @@
+---
+---
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>HAo / Works of Yuhao Zheng</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico" media="screen" />
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Typekit Proxima
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://use.typekit.net/efx3njx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../assets/css/1-tools/normalize.css">
+    <link rel="stylesheet" href="../assets/css/1-tools/skeleton.css">
+    <link rel="stylesheet" href="../assets/css/1-tools/custom.css">
+    <link rel="stylesheet" href="../assets/css/1-tools/headers.css">
+    <link rel="stylesheet" href="../assets/css/1-tools/fontz/argent-cf-thin.css" type="text/css" charset="utf-8" /> 
+   
+    <!-- Social
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta property="og:site_name" content="HAo" />
+    <meta property="og:description" content="Works of Yuhao Zheng" />
+
+    <meta property="og:url" content="http://www.yuhaozheng.com/" />
+    <meta property="og:title" content="HAo / Works of Yuhao Zheng" />
+
+
+
+</head>
+
+ 
+<body class="work">
+    <!-- mobile nav bruh -->
+    {% include mobile-nav.html%}
+    {% include nav.html %}
+    <!-- end of the nav -->
+    <div class="container">
+    <!-- work-sort -->   
+        {% include work-sort.html %}
+    <!-- end of work-sort -->  
+    <!-- content -->   
+         <!-- project-1-->  
+          <div class="row">
+            {% for project in site.data.settings.projects-1 %}
+            <div class="four columns {{ project.data }}">
+                <a href="../work/{{ project.folder }}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+                <p class="work-thumb">{{ project.name }}</p>
+                <p class="work-thumb-desc">{{ project.description }}</p>
+                <p class="work-categoryz">{{ project.category }}</p>                
+            </div>
+            {% endfor %}
+         </div>
+         <!-- project-2--> 
+         <div class="row">
+            {% for project in site.data.settings.projects-2 %}
+            <div class="four columns {{project.data}}">
+                <a href="../work/{{project.folder}}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+                <p class="work-thumb">{{project.name}}</p>
+                <p class="work-thumb-desc">{{project.description}}</p>
+                <p class="work-categoryz">{{project.category}}</p>                
+            </div>
+            {% endfor %}
+         </div>
+         <!-- project-3--> 
+         <div class="row">
+            {% for project in site.data.settings.projects-3 %}
+            <div class="four columns {{ project.data }}">
+                <a href="../work/{{ project.folder }}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+                <p class="work-thumb">{{ project.name }}</p>
+                <p class="work-thumb-desc">{{ project.description }}</p>
+                <p class="work-categoryz">{{ project.category }}</p>                
+            </div>
+            {% endfor %}
+         </div>
+          <div class="row">
+            {% for project in site.data.settings.projects-4 %}
+            <div class="four columns {{ project.data }}">
+                <a href="../work/{{ project.folder }}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+                <p class="work-thumb">{{ project.name }}</p>
+                <p class="work-thumb-desc">{{ project.description }}</p>
+                <p class="work-categoryz">{{ project.category }}</p>                
+            </div>
+            {% endfor %}
+         </div>
+    
+		
+    {% include footer.html %}         
+     </div>
+    
+<script src="../assets/js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<div class="container"> 
+ <!-- work-sort -->
+	{% include work-sort.html %}
+  <!-- end of work-sort --> 
+  
+	<div class="row">      
+					{% for project in site.data.settings.projects-1 %}
+				<div class="four columns {{project.data}}">
+					<a href="../work/{{project.folder}}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+					<p class="work-thumb">{{project.name}}</p>
+					<p class="work-thumb-desc">{{project.description}}</p>
+					<p class="work-categoryz">{{project.category}}</p>                
+				</div>
+					{% endfor %}
+	</div>
+					 
+	<div class="row">      
+					{% for project in site.data.settings.projects-2 %}
+				<div class="four columns {{project.data}}">
+					<a href="../work/{{project.folder}}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+					<p class="work-thumb">{{project.name}}</p>
+					<p class="work-thumb-desc">{{project.description}}</p>
+					<p class="work-categoryz">{{project.category}}</p>                
+				</div>
+					{% endfor %}                       
+
+	</div>
+	
+	<div class="row">      
+					{% for project in site.data.settings.projects-3 %}
+				<div class="four columns {{project.data}}">
+					<a href="../work/{{project.folder}}/"><img src="../assets/img/work/{{project.folder}}/thumb.jpg" /></a>
+					<p class="work-thumb">{{project.name}}</p>
+					<p class="work-thumb-desc">{{project.description}}</p>
+					<p class="work-categoryz">{{project.category}}</p>                
+				</div>
+					{% endfor %}                       
+
+	</div>			
+
+  <!-- footer -->
+	{% include footer.html %}
+  <!-- footer -->     
+</div>

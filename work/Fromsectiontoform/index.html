@@ -1,0 +1,131 @@
+---
+---
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>HAo / Works of Yuhao Zheng</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico" media="screen" />
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Typekit Proxima
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://use.typekit.net/efx3njx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../../assets/css/1-tools/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/skeleton.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/custom.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/headers.css">
+    <link rel="stylesheet" href="../../assets/css/1-tools/fontz/argent-cf-thin.css" type="text/css" charset="utf-8" /> 
+   
+    <!-- Social
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta property="og:site_name" content="HAo" />
+    <meta property="og:description" content="Works of Yuhao Zheng" />
+
+    <meta property="og:url" content="http://www.yuhaozheng.com/" />
+    <meta property="og:title" content="HAo / Works of Yuhao Zheng" />
+</head>
+<body>
+
+  <!-- Header + Nav
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- mobile nav bruh -->
+	{% include mobile-nav-work.html %}
+  <!-- end of the nav -->
+	{% include nav-work.html %}
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+ <div class="header_section container_header workz"></div>
+ 
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container workz">
+  
+   <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+             <!--  intro  -->
+     {% for project in site.data.settings.section %}    
+     	{% include work-title.html %}
+     {% endfor %}
+           <!-- end of intro  -->
+           
+  <!-- Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    	<div class="row">
+        	<div class="ten offset-by-one columns"> 
+           		<p class="text_work_title">From section to form</p><br>
+            	<img src="../../assets/img/work/Fromsectiontoform/type and section.jpg" /> 
+			</div>
+   		</div>
+   	<div class="row">
+    	<div class="full columns"> 
+           <p class="text_work_content2">We believe that the goal of studying the space of wall should focus on analyzing the spacial relationship that “wall“ can contribute to. Thus, we come up with five type of “wall” (or we can say spacial relationship) that can cover most of the spacial relationship both in nature, building and urban scale.
+            <br><br>
+            A.Block: Separate space into different part completely. With no visual or physical connection
+            <br>B.Perceive: create a sense of wall, and remained physical and visual connection
+            <br>C.Miss: using a slope to separate space into different parts with no physical connection but remain visual connection.
+            <br>D.Carve: carving land to separate space, remain visual connection.
+            <br>E.Bridge: divide space vertically with no physical connection but continued the visual connection.   
+            <br><br>Combing this five type of wall, we can create a more complicate spacial relationship. The types only represent the concept of this spacial relationship. This methodology helps designer has a better sense to create more fantastic space.</p> 
+      </div>
+	</div>
+   
+        <div class="row">
+       <div class="full columns">
+        	<p class="text_work_title">Notation System</p> <br>
+         <p class="text_work_content2">We introduce a new tool “loft“ to the methodology. We placed the combination of the type created before in the certain order and used “loft“ to create space. This technique helps us apply this methodology to space creating.<br>Then, we create a notation system to give function to the prototype. This system helps us organizing the function of the space and create a prototype shortly. Also, it gave us a unnormal version of the spacial relationship.<br>The diagram showing one possible function organization of each prototype and each prototype can have multiple organization ways. 
+<br></p>  
+        </div>
+        </div>
+        <div class="row">
+        <div class="ten offset-by-one columns"> 
+             
+            <img src="../../assets/img/work/Fromsectiontoform/notation.jpg" /> 
+		</div>
+           </div>
+            <p class="text_work_content2">Applied scale and program to prototype, the organization and the potential of the prototype became apparent.The prototype only shows a section of the space or part of the building. We used it as the base to further developed the building.  <br></p> 
+         <div class="row">
+           <div class="ten offset-by-one columns">   
+            	<div class="one-half column"> 
+            		<img src="../../assets/img/work/Fromsectiontoform/transform1.jpg" /> 
+             	</div>
+          <div class="row">   
+                <div class="one-half column"> 
+            		<img src="../../assets/img/work/Fromsectiontoform/transform2.jpg" /> 
+              	</div>    
+         </div>           
+      		</div>
+        </div> 
+        
+     </div>                
+
+ <!-- end of Customize Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+ <!-- Change here！！！！！！！！！！！！！！！！！！！！！
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+         <!--  footer  -->
+ {% for project in site.data.settings.stadium %}    
+     	{% include work-footer.html %}
+     {% endfor %}
+      
+       <!-- end of footer  -->
+<script src="../../assets/js/main.js"></script>    
+</body>
+</html>
+

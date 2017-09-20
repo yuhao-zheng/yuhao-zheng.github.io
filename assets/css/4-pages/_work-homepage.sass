@@ -1,0 +1,63 @@
+.project-section	
+	margin: 75px auto -10px 0
+
+	.thumb-container
+		display: block
+		max-width: 1000px
+		margin: 0px auto
+		padding-bottom: 100px
+		+clearfix
+
+	.thumb-unit
+		position: center
+		display: block
+		float: left
+		margin: 30px auto
+		+size(33%)
+		
+		.thumb-img
+			margin: auto
+			+size(90%)
+			display: block
+			position: relative
+			padding-top: 90%
+			overflow: hidden
+			
+
+			background:
+				position: center center
+				repeat: no-repeat
+				size: cover
+
+			.thumb-overlay
+				+position(absolute, 100% 0px null 0px)
+				height: 100%
+				background: fade-out(black,0.5)
+				text-align-center
+				+transition
+
+				strong
+					display: block
+					padding: 30px
+					color: white
+					font-weight: 300
+					text-transform: uppercase
+					font-size: 20px
+					line-height: 1.2
+
+
+			&:hover .thumb-overlay
+				+position(absolute, 0% 0px null 0px)
+
+
+		.project-text
+			width: 90%
+			text-align: left
+			margin: 0.8em auto
+			line-height: 80%
+			
+		
+
+		
+		
+		

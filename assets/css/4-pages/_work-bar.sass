@@ -1,0 +1,22 @@
+/* CSS Document */
+section-bar
+	
+	.bar-container	
+		max-width: 960px
+		margin: 20px auto
+
+		.bar
+			display: block
+			float: right
+			+clearfix
+
+			nav
+				a
+					color: rgnba(0,0,0,0.8)
+					text-transform: uppercase
+					margin: (10px 5px 0px 30px)
+					@extend %small-bold 
+					color: rgba(0,0,0,0.5)
+					font-size: 12px
+					&:hover
+						color: rgba(225,225,225,0.8)
